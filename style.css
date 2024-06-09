@@ -1,0 +1,18 @@
+header{
+    color: white;
+    background-color: black;
+    padding:30px;
+}
+
+.total{
+    padding: 0px 10px;
+}
+
+.perguntas{
+    padding: 0px 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}

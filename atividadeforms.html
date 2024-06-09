@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Esportes</h2>
+    </header>
+    <nav>
+        <h3>Dados para pesquisa </h3>
+    </nav>
+    <form  action="//api.staticforms.xyz/submit" method="post">
+    <div class="total">
+        <div class="nomes">
+            <label>NOME:</label>
+            <input type="text" id="nome" name="$nome" placeholder="Nome">
+            <label>SOBRENOME:</label>
+            <input type="text" id="sobrenome" name="$sobrenome" placeholder="Sobrenome">
+        </div>
+        <br>
+        <div class="informacoes">
+            <label>IDADE:</label>
+            <input type="text" id="idade" name="$idade" placeholder="Idade">
+            <label>EMAIL:</label>
+            <input type="text" id="email" name="$email" placeholder="Email">
+        </div>
+    </div>
+    <div class="perguntas">
+        <p>Qual destes espotes você gosta?</p>
+        <br>
+        <input type="radio" id="esportes" name="$basquete">
+        <label>Baquete</label>
+        <br>
+        <input type="radio" id="esportes" name="$baseball">
+        <label>Baseball</label>
+        <br>
+        <input type="radio" id="esportes" name="$futebol">
+        <label>Futebol</label>
+        <br>
+        <input type="radio" id="esportes" name="$volei">
+        <label>Vôlei</label>
+        <br>
+        <input type="radio" id="esportes" name="$tenis">
+        <label>Tênis</label>
+        <br>
+        <input type="radio" id="esportes" name="$handeball">
+        <label>Handeball</label>
+    </div>
+    <br>
+    <div class="botao">
+        <input type="submit" value="Enviar">
+    </div>
+
+    <footer>
+        <h1>OBRIGADO!</h1>
+    </footer>
+    <input type="text">
+    <input type="hidden" name="accessKey" value="cea28981-be16-4682-b5f6-6ebda22a5293">
+    </form>
+
+</body>
+</html>
