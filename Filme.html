@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="Filme.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a>HOME</a>
+        <a>TOP 5</a>
+        <a>RECENTE</a>
+        <a>KIDS</a>
+        <a>EM BREVE</a>
+    </nav>
+    <h1>FILMES EM DETAQUE</h1>
+    <section class="section-filmes">
+
+        <div class="filme">
+            <h2>HOMEM-ARANHA</h2>
+            <img class="imagem" src="/imagem/homem-aranha.jpg">
+            <h3>SINOPSE</h3>
+            <p>Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica, o jovem nerd Peter Parker ganha superpoderes.<br> Inicialmente, ele pretende usá-los para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém, ao presenciar o assassinando de seu tio Ben e <br>sentir-se culpado, Peter decide não mais usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico Duende Verde.</p>
+            <h3>ELENCO</h3>
+            <ol>
+                <li>Tombey Maguire</li>
+                <li>Kirsten Dunst</li>
+                <li>Willem Dafoe</li>
+                <li>James Franco</li>
+            </ol>
+        </div>
+
+        <div class="filme">
+            <h2>VINGADORES</h2>
+            <img class="imagem" src="/imagem/vingadores.jpeg">
+            <h3>SINOPSE</h3>
+            <p>Loki (Tom Hiddleston) retorna à Terra enviado pelos chitauri, uma raça alienígena que pretende dominar os humanos. Com a promessa de que será<br> o soberano do planeta, ele rouba o cubo cósmico dentro de instalações da S.H.I.E.L.D. e, com isso, adquire grandes poderes. Loki os usa para controlar o dr. Erik Selvig (Stellan Skarsgard) e<br> Clint Barton/Gavião Arqueiro (Jeremy Renner), que passam a trabalhar para ele. No intuito de contê-los, Nick Fury (Samuel L. Jackson) convoca<br> um grupo de pessoas com grandes habilidades, mas que jamais haviam trabalhado juntas: Tony Stark/Homem de Ferro (Robert Downey Jr.), Steve Rogers/Capitão América (Chris Evans), Thor (Chris Hemsworth), Bruce Banner/Hulk (Mark Ruffalo) e Natasha Romanoff/Viúva Negra (Scarlett Johansson). Só que, apesar do grande perigo que a Terra corre, não é tão simples assim conter o ego e os interesses de cada um deles para que possam agir em grupo.</p>
+            <h3>ELENCO</h3>
+            <ol>
+                <li>Robert Downey Jr.</li>
+                <li>Chris Evans</li>
+                <li>Mark Ruffalo</li>
+                <li>Scarlett Johansson</li>
+            </ol>
+        </div>
+
+        <div class="filme">
+            <h2>PROCURANDO NEMO</h2>
+            <img class="imagem" src="/imagem/procurandonemo.jpeg">
+            <h3>SINOPSE</h3>
+            <p>O passado reserva tristes memórias para Marlin nos recifes de coral, onde perdeu sua esposa e toda a ninhada. Agora, ele cria seu único filho Nemo<br> com todo o cuidado do mundo, mas o pequeno e simpático peixe-palhaço acaba exagerando durante uma simples discussão e acaba sendo capturado por um mergulhador. Agora, o pai super protetor<br> precisa entrar em ação e parte numa busca incansável pelo mar aberto, na esperança de encontrar seu amado filhote. No meio do caminho, ele acaba<br> conhecendo Dory e, juntos, a dupla vai viver uma incrível aventura. Enquanto isso, Nemo também vive uma intensa experiência ao lado de seus novos amigos habitantes de um aquário, pois eles precisam ajudá-lo a escapar do destino que lhe foi reservado: ir parar nas mãos da terrível Darla, sobrinha do dentista que o capturou.</p>
+            <h3>ELENCO</h3>
+            <ol>
+                <li>Albert Brooks(Marlin)</li>
+                <li>Ellen DeGeneres(Dory)</li>
+                <li>Alexander Gould(Nemo)</li>
+                <li>Willem Dafoe(Gill)</li>
+            </ol>      
+        </div>
+
+    </section>
+    
+    <section class="formulario">
+        <h3>Queremos conhecer suas
+            preferências</h3>
+        <form>
+            <Label>Seu nome: </Label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
+            
+           <br> <label> Como você prefere ver filmes? </label> <br>
+            
+            <input type="radio" id="Sozinho" name="Sozinho" value="Sozinho">
+            <label>Sozinho</label> <br>
+
+            <input type="radio" id="Com o(a) parceiro(a)" name="Com o(a) parceiro(a)" value="Com o(a) parceiro(a)">
+            <label>Com o(a) parceiro(a)</label> <br>
+
+            <input type="radio" id="Com amigos" name="Com amigos" value="Com amigos">
+            <label>Com amigos</label> <br>
+
+            <input type="radio" id="Com toda a família" name="Com toda a família" value="Com toda a família">
+            <label>Com toda a família</label> <br>
+            
+        
+            <br><label>Quais seus estilos de filme favorito? </label> <br>
+
+            <input type="checkbox" id="Romance" name="Romance" value="Romance">
+            <label>Romance</label> <br>
+
+            <input type="checkbox" id="Comédia" name="Comédia" value="Comédia">
+            <label>Comédia</label> <br>
+
+            <input type="checkbox" id="Terror" name="Terror" value="Terror">
+            <label>Terror</label> <br>
+
+            <input type="checkbox" id="Suspense" name="Suspense" value="Suspense">
+            <label>Suspense</label> <br> 
+            
+            <br><input type="submit" value="Enviar">
+        </form>
+        <h3>Os três filmes mais assistidos na cidade</h3>
+        <table>
+            <tr>
+                <th>TITULO</th>
+                <th>GENERO</th>
+                <th>DIRECAO</th>
+            </tr>
+            <tr>
+                <th>HOMEM ARANHA</th>
+                <th>AÇAO</th>
+                <th>LOUIS LATERRIER</th>
+            </tr>
+            <tr>
+                <th>PLANETA DOS MACACOS</th>
+                <th>FICÇÃO CIENTIFICA</th>
+                <th>JAMES GUNN</th>
+            </tr>
+            <tr>
+                <th>JACK SPARROW</th>
+                <th>FICÇÃO CIENTIFICA</th>
+                <th>JAMES GUN</th>
+            </tr>
+        </table>
+    </section>
+    <h2>DICA DE CINEMA EM CURITIBA</h2>
+    <iframe src=https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28820.851659901193!2d-49.25241116950039!3d-25.45141743245652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCinemark!5e0!3m2!1spt-BR!2sbr!4v1716209354322!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+<footer>
+    <p>Todos os direitos reservados. Desenvolvido peça dupla: Gustavo Yuri e Adryan Costa</p>
+</footer>
+</html>
